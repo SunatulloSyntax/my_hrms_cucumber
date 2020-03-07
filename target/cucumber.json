@@ -1,0 +1,567 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:31)\r\n\tat com.hrms.steps.AddEmployeeSteps.i_logged_into_HRMS(AddEmployeeSteps.java:17)\r\n\tat ✽.I logged into HRMS(file:src/test/resources/features/AddEmployee.feature:6)\r\n",
+              "duration": 3048800,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I logged into HRMS",
+            "match": {
+              "location": "AddEmployeeSteps.i_logged_into_HRMS()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I navigate to Add Employee List",
+            "match": {
+              "location": "AddEmployeeSteps.i_navigate_to_Add_Employee_List()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-13T01:40:45.396Z",
+        "line": 10,
+        "name": "Add Employee",
+        "description": "",
+        "id": "add-employee;add-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I add \"Sam\", \"S\" and \"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sam\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"S\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 21
+                }
+              ],
+              "location": "AddEmployeeSteps.i_add_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click on save button",
+            "match": {
+              "location": "AddEmployeeSteps.i_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I see employee has been successfully added",
+            "match": {
+              "location": "AddEmployeeSteps.i_see_employee_has_been_successfully_added()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint2,AddEmployee"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:31)\r\n\tat com.hrms.steps.AddEmployeeSteps.i_logged_into_HRMS(AddEmployeeSteps.java:17)\r\n\tat ✽.I logged into HRMS(file:src/test/resources/features/AddEmployee.feature:6)\r\n",
+              "duration": 305600,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I logged into HRMS",
+            "match": {
+              "location": "AddEmployeeSteps.i_logged_into_HRMS()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I navigate to Add Employee List",
+            "match": {
+              "location": "AddEmployeeSteps.i_navigate_to_Add_Employee_List()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-13T01:40:45.447Z",
+        "line": 29,
+        "name": "Add and Modify Employee Details",
+        "description": "",
+        "id": "add-employee;add-and-modify-employee-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "I enter employee details",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "MiddleName",
+                  "LastName"
+                ]
+              },
+              {
+                "cells": [
+                  "John",
+                  "J",
+                  "Smith"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint2,AddEmployee"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Add Employee",
+    "description": "",
+    "id": "add-employee",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddEmployee.feature",
+    "tags": [
+      {
+        "name": "@sprint2,AddEmployee",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-13T01:40:45.449Z",
+        "line": 5,
+        "name": "Valid login",
+        "description": "",
+        "id": "login;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.clear(Unknown Source)\r\n\tat com.hrms.utils.CommonMethods.sendText(CommonMethods.java:200)\r\n\tat com.hrms.steps.LoginSteps.i_enter_valid_username_and_valid_password(LoginSteps.java:25)\r\n\tat ✽.I enter valid username and valid password(file:src/test/resources/features/Login.feature:6)\r\n",
+              "duration": 37138300,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I enter valid username and valid password",
+            "match": {
+              "location": "LoginSteps.i_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I successfully logged in",
+            "match": {
+              "location": "LoginSteps.i_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint1,login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-13T01:40:45.487Z",
+        "line": 24,
+        "name": "Invalid Login and message validation",
+        "description": "",
+        "id": "login;invalid-login-and-message-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.clear(Unknown Source)\r\n\tat com.hrms.utils.CommonMethods.sendText(CommonMethods.java:200)\r\n\tat com.hrms.steps.LoginSteps.i_enter_and(LoginSteps.java:62)\r\n\tat ✽.I enter \"\u003cUsename\u003e\" and \"Admin123\"(file:src/test/resources/features/Login.feature:18)\r\n",
+              "duration": 1060300,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "I enter \"\u003cUsename\u003e\" and \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUsename\u003e\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9200,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9500,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I see \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid credentials\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.i_see(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint1,login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-13T01:40:45.490Z",
+        "line": 25,
+        "name": "Invalid Login and message validation",
+        "description": "",
+        "id": "login;invalid-login-and-message-validation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.clear(Unknown Source)\r\n\tat com.hrms.utils.CommonMethods.sendText(CommonMethods.java:200)\r\n\tat com.hrms.steps.LoginSteps.i_enter_and(LoginSteps.java:62)\r\n\tat ✽.I enter \"\u003cUsename\u003e\" and \"\"(file:src/test/resources/features/Login.feature:18)\r\n",
+              "duration": 2457400,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "I enter \"\u003cUsename\u003e\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUsename\u003e\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10600,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13400,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I see \"Password cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password cannot be empty\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.i_see(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint1,login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-13T01:40:45.493Z",
+        "line": 26,
+        "name": "Invalid Login and message validation",
+        "description": "",
+        "id": "login;invalid-login-and-message-validation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.clear(Unknown Source)\r\n\tat com.hrms.utils.CommonMethods.sendText(CommonMethods.java:200)\r\n\tat com.hrms.steps.LoginSteps.i_enter_and(LoginSteps.java:62)\r\n\tat ✽.I enter \"\u003cUsename\u003e\" and \"Syntax@123\"(file:src/test/resources/features/Login.feature:18)\r\n",
+              "duration": 1004900,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "I enter \"\u003cUsename\u003e\" and \"Syntax@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUsename\u003e\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Syntax@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9600,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I see \"Username cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username cannot be empty\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.i_see(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint1,login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-13T01:40:45.495Z",
+        "line": 27,
+        "name": "Invalid Login and message validation",
+        "description": "",
+        "id": "login;invalid-login-and-message-validation;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.clear(Unknown Source)\r\n\tat com.hrms.utils.CommonMethods.sendText(CommonMethods.java:200)\r\n\tat com.hrms.steps.LoginSteps.i_enter_and(LoginSteps.java:62)\r\n\tat ✽.I enter \"\u003cUsename\u003e\" and \"\"(file:src/test/resources/features/Login.feature:18)\r\n",
+              "duration": 749400,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "I enter \"\u003cUsename\u003e\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUsename\u003e\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I see \"Username cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username cannot be empty\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.i_see(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint1,login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@sprint1,login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
